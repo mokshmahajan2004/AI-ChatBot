@@ -27,14 +27,6 @@
 - **Responsive Design**: Works seamlessly on desktop and mobile
 - **Real-time Chat**: Instant messaging with typing indicators
 - **Markdown Support**: Rich text formatting with code syntax highlighting
-- **Dark/Light Theme**: Automatic theme detection
-- **Message Export**: Download conversation history
-
-### ⚡ **Performance & Scalability**
-- **Serverless Architecture**: Built on AWS Lambda and Vercel Functions
-- **Global CDN**: Fast loading times worldwide
-- **Rate Limiting**: Prevents abuse and ensures fair usage
-- **Error Handling**: Robust error handling with user-friendly messages
 
 ### 🔐 **Security & Privacy**
 - **API Key Protection**: Secure storage of API keys
