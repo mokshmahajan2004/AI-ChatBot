@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>DeepSeek R1T2 Chimera Chatbot</h1>
-        <p>Powered by TNG Technology & AWS</p>
+        <h1>DeepMind : Your AI Buddy</h1>
+        <p>Powered by DeepSeek</p>
       </header>
       <main className="App-main">
         <ChatInterface />

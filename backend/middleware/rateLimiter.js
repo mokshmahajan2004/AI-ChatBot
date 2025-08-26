@@ -5,7 +5,7 @@ const logger = require("../utils/logger");
 const rateLimiter = new RateLimiterMemory({
   keyPrefix: "middleware",
   points: parseInt(process.env.RATE_LIMIT_MAX_REQUESTS) || 100, // Number of requests
-  duration: parseInt(process.env.RATE_LIMIT_WINDOW_MS) || 900, // Per 15 minutes (900 seconds)
+  duration: parseInt(process.env.RATE_LIMIT_WINDOW_MS) / 1000 || 900, // Per 15 minutes (900 seconds)
   blockDuration: 300, // Block for 5 minutes if limit exceeded
 });
 
