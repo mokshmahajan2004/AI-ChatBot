@@ -8,7 +8,7 @@ const ChatInterface = () => {
   const [messages, setMessages] = useState([
     {
       id: uuidv4(),
-      text: "Hello! I'm your DeepMind. How can I help you today?",
+      text: "Hello! I'm DeepMind. How can I help you today?",
       sender: "bot",
       timestamp: new Date().toISOString(),
       reasoning: null,
